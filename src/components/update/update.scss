@@ -1,0 +1,47 @@
+.test-container{
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  .wrapper{
+    display: flex;
+    margin-bottom: 1rem;
+    .name{
+      width: 6rem;
+      margin-right: 1rem;
+      line-height: 1.8rem;
+      text-align: left;
+    }
+  }
+}
+.question-container{
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #CDCDCD;
+  margin-bottom: 1rem;
+  .wrapper{
+    display: flex;
+    margin-bottom: 1rem;
+    .name{
+      margin-right: 1rem;
+      width: 6rem;
+      line-height: 1.8rem;
+      text-align: left;
+    }
+  }
+}
+.answer-container{
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #CDCDCD;
+  margin-bottom: 1rem;
+  .wrapper{
+    display: flex;
+    margin-bottom: 1rem;
+    .name{
+      width: 6rem;
+      line-height: 1.8rem;
+      text-align: left;
+      margin-right: 1rem;
+    }
+  }
+}

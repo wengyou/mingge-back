@@ -1,0 +1,102 @@
+.add-container{
+  width: 77vw;
+  min-height: 85vh;
+  display: flex;
+  justify-content: space-between;
+  .test{
+    width: 49%;
+    min-height: 85vh;
+    border: 1px solid #BDBDBD;
+    .wrapper{
+      display: flex;
+      width: 92%;
+      height: 2rem;
+      line-height: 2rem;
+      margin: .5rem auto;
+      justify-content: space-between;
+      font-size: 14px;
+      .add-input{
+        width: 28vw;
+      }
+    }
+  }
+}
+.modal-wrapper1{
+  width: 94%;
+  margin: .5rem auto;
+  height: 2rem;
+  display: flex;
+  .modal-label{
+    margin-right: 5rem;
+  }
+}
+.modal-wrapper2{
+  width: 94%;
+  margin: .5rem auto;
+  height: 2rem;
+  display: flex;
+  .modal-label{
+    margin-right: 2.8rem;
+    line-height: 2rem;
+  }
+  .modal-input{
+    width: 28vw;
+  }
+}
+.modal-wrapper3{
+  width: 94%;
+  margin: .5rem auto;
+  display: flex;
+  line-height: 3rem;
+  .modal-label{
+    margin-right: 1rem;
+  }
+}
+.imgArr-wrapper{
+  width: 28vw;
+  display: flex;
+  justify-content: space-between;
+  margin-top: .5rem;
+  .imgArr-input{
+    width: 80%;
+  }
+}
+.question-answer{
+  width: 94%;
+  margin: .5rem auto;
+  .modal-wrapper4{
+    width: 100%;
+    display: flex;
+    .modal-label{
+      margin-right: 2.8rem;
+    }
+    .modal-input{
+      width: 28vw;
+    }
+  }
+}
+.answer{
+  width: 49%;
+  min-height: 85vh;
+  border: 1px solid #BDBDBD;
+  .wrapper{
+    width: 92%;
+    margin: .5rem auto;
+    display: flex;
+    line-height: 2rem;
+    .answer-label{
+      width: 6rem;
+      text-align: left;
+    }
+    .answerImgArr-wrapper{
+      display: flex;
+      background: #61dafb;
+      width: 22.8rem;
+      margin-top: .5rem;
+    }
+  }
+}
+.save-btn{
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+}
